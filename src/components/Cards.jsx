@@ -1,17 +1,14 @@
 import React from 'react'
 import Card from './Card'
 
-const Cards = () => {
+const Cards = ({ items }) => {
+
   return (
     <div className="cards grid grid-cols-4 gap-8">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            {items.map((item) => {
+              return <Card key={item.id} image={item.image} title={item.title}/>
+            })}
+      
     </div>
   )
 }

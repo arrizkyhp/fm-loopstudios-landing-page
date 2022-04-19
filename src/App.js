@@ -1,13 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom'
 import Home from 'pages/Home';
+import { DataProvider } from 'context/data/DataContext';
 
 function App() {
   return (
-   <BrowserRouter>
-    <Home />
-   </BrowserRouter>
+    <BrowserRouter>
+      <DataProvider>
+        <Home />
+      </DataProvider>
+    </BrowserRouter>
   );
 }
 

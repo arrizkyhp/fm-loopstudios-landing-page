@@ -13,7 +13,7 @@ const Home = () => {
                 <Hero />
             </div>
         </div>
-        <div className="flex items-center container max-w-[80vw] mx-auto mb-52">
+        <div className="flex items-center container max-w-[80vw] h-[50vh] mx-auto mb-52">
             <Interactive />
         </div>
         <div className="flex h-full items-center container max-w-[80vw] mx-auto mb-48">
