@@ -1,12 +1,10 @@
 import React from 'react'
-import deepEarth from 'assets/images/desktop/image-deep-earth.jpg'
 import Image from './Image'
 
 const Card = ({ title, image}) => {
   console.log(image)
   return (
     <div className='relative w-full'>
-      {/* <img className='w-full' src={deepEarth} alt="earth" /> */}
       <Image 
         src={image.webp.url}
         type={image.webp.type}

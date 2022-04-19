@@ -1,6 +1,5 @@
 import { useContext } from 'react'
 import DataContext from 'context/data/DataContext'
-import virtualReality from 'assets/images/desktop/image-interactive.jpg'
 import Image from 'components/Image'
 
 const Interactive = () => {
@@ -9,7 +8,6 @@ const Interactive = () => {
   const dataImage = dataInteractive.image
   return (
     <section className='flex relative'>
-        {/* <img  src={virtualReality} alt="man using vr" /> */}
         <Image 
           src={dataImage.webp.url} 
           type={dataImage.webp.type} 
