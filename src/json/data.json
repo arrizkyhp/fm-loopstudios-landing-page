@@ -161,6 +161,32 @@
                 }
             }
         ]
-    }
+    },
+    "social": [
+        {
+            "id": "social1",
+            "name": "facebook",
+            "url": "https://www.facebook.com/",
+            "icon": "/images/social/icon-facebook.svg"
+        },
+        {
+            "id": "social2",
+            "name": "twitter",
+            "url": "https://twitter.com/",
+            "icon": "/images/social/icon-twitter.svg"
+        },
+        {
+            "id": "social3",
+            "name": "pinterest",
+            "url": "https://www.pinterest.com/",
+            "icon": "/images/social/icon-pinterest.svg"
+        },
+        {
+            "id": "social4",
+            "name": "instagram",
+            "url": "https://www.instagram.com/",
+            "icon": "/images/social/icon-instagram.svg"
+        }
+    ]
     
 }

@@ -18,7 +18,8 @@ module.exports = {
         'josefin-sans': ['Josefin Sans', 'sans-serif']
       },
       'backgroundImage': {
-        'hero-gradient': " linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/images/desktop/image-hero.jpg')"
+        'hero-gradient-desktop': " linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/images/desktop/image-hero.jpg')",
+        'hero-gradient-mobile': " linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/images/mobile/image-hero.jpg')",
       }
       
     },
