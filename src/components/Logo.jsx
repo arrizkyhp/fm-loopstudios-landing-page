@@ -2,9 +2,11 @@ import React from 'react'
 import logo from 'assets/images/logo.svg'
 
 
-const Logo = () => {
+const Logo = (props) => {
+  const className = [props.className]  
+
   return (
-    <a href="#logo">
+    <a className={`${className.join(" ")}`} href="#logo">
         <img src={logo} alt="logo" />
     </a>
   )

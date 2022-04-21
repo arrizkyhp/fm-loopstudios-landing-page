@@ -14,7 +14,7 @@ const Interactive = () => {
           fallback={dataImage.jpg.url} 
           alt={dataImage.jpg.alt}
         />
-        <div className="flex  flex-col gap-8 bg-white px-20 py-20 relative md:absolute md:w-[640px] md:-right-[460px] md:-bottom-[90px]">
+        <div className="flex  flex-col gap-8 bg-white px-10 md:px-20 py-20 relative md:absolute md:w-[640px] md:-right-[460px] md:-bottom-[90px]">
             <h1 className='text-black uppercase text-5xl font-josefin-sans'>{dataInteractive.subheading}</h1>
             <p className='text-very-dark-gray font-alata leading-7'>{dataInteractive.supportCopy}</p>
         </div>

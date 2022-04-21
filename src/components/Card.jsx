@@ -2,7 +2,7 @@ import React from 'react'
 import Image from './Image'
 
 const Card = ({ title, image}) => {
-  console.log(image)
+  
   return (
     <div className='relative w-full'>
       <Image 
