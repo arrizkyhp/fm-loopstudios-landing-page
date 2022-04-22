@@ -35,14 +35,26 @@
         "subheading": "The leader in interactive VR",
         "supportCopy": "Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.",
         "image": {
-            "jpg": {
-                "url": "/images/jpg/desktop/image-interactive.jpg",
-                "alt": "man using virtual reality"
-            },
-            "webp": {
-                "url": "/images/webp/desktop/image-interactive.webp",
-                "type": "image/webp"
-            }
+           "desktop": {
+                "jpg": {
+                    "url": "/images/jpg/desktop/image-interactive.jpg",
+                    "alt": "man using virtual reality"
+                },
+                "webp": {
+                    "url": "/images/webp/desktop/image-interactive.webp",
+                    "type": "image/webp"
+                }
+           },
+           "mobile": {
+                "jpg": {
+                    "url": "/images/jpg/mobile/image-interactive.jpg",
+                    "alt": "man using virtual reality"
+                },
+                "webp": {
+                    "url": "/images/webp/mobile/image-interactive.webp",
+                    "type": "image/webp"
+                }
+           }
         }
     },
     "creations": {
@@ -52,13 +64,25 @@
                 "id": "creations001",
                 "title": "Deep earth",
                 "image": {
-                    "jpg": {
-                        "url": "/images/jpg/desktop/image-deep-earth.jpg",
-                        "alt": "earth"
+                    "desktop": {
+                        "jpg": {
+                            "url": "/images/jpg/desktop/image-deep-earth.jpg",
+                            "alt": "earth"
+                        },
+                        "webp": {
+                            "url": "/images/webp/desktop/image-deep-earth.webp",
+                            "type": "image/webp"
+                        }
                     },
-                    "webp": {
-                        "url": "/images/webp/desktop/image-deep-earth.webp",
-                        "type": "image/webp"
+                    "mobile": {
+                        "jpg": {
+                            "url": "/images/jpg/mobile/image-deep-earth.jpg",
+                            "alt": "earth"
+                        },
+                        "webp": {
+                            "url": "/images/webp/mobile/image-deep-earth.webp",
+                            "type": "image/webp"
+                        }
                     }
                 } 
             },
@@ -66,13 +90,25 @@
                 "id": "creations002",
                 "title": "Night arcade",
                 "image": {
-                    "jpg": {
-                        "url": "/images/jpg/desktop/image-night-arcade.jpg",
-                        "alt": "night arcade"
+                    "desktop": {
+                        "jpg": {
+                            "url": "/images/jpg/desktop/image-night-arcade.jpg",
+                            "alt": "night arcade"
+                        },
+                        "webp": {
+                            "url": "/images/webp/desktop/image-night-arcade.webp",
+                            "type": "image/webp"
+                        }
                     },
-                    "webp": {
-                        "url": "/images/webp/desktop/image-night-arcade.webp",
-                        "type": "image/webp"
+                    "mobile": {
+                        "jpg": {
+                            "url": "/images/jpg/mobile/image-night-arcade.jpg",
+                            "alt": "night arcade"
+                        },
+                        "webp": {
+                            "url": "/images/webp/mobile/image-night-arcade.webp",
+                            "type": "image/webp"
+                        }
                     }
                 } 
             },
@@ -80,13 +116,25 @@
                 "id": "creations003",
                 "title": "Soccer team VR",
                 "image": {
-                    "jpg": {
-                        "url": "/images/jpg/desktop/image-soccer-team.jpg",
-                        "alt": "soccer player"
-                    },
-                    "webp": {
-                        "url": "/images/webp/desktop/image-soccer-team.webp",
-                        "type": "image/webp"
+                    "desktop": {
+                        "jpg": {
+                            "url": "/images/jpg/desktop/image-soccer-team.jpg",
+                            "alt": "soccer player"
+                        },
+                        "webp": {
+                            "url": "/images/webp/desktop/image-soccer-team.webp",
+                            "type": "image/webp"
+                        }
+                    }, 
+                    "mobile": {
+                        "jpg": {
+                            "url": "/images/jpg/mobile/image-soccer-team.jpg",
+                            "alt": "soccer player"
+                        },
+                        "webp": {
+                            "url": "/images/webp/mobile/image-soccer-team.webp",
+                            "type": "image/webp"
+                        }
                     }
                 }  
             },
@@ -94,13 +142,25 @@
                 "id": "creations004",
                 "title": "The grid",
                 "image": {
-                    "jpg": {
-                        "url": "/images/jpg/desktop/image-grid.jpg",
-                        "alt": "front car"
+                    "desktop": {
+                        "jpg": {
+                            "url": "/images/jpg/desktop/image-grid.jpg",
+                            "alt": "front car"
+                        },
+                        "webp": {
+                            "url": "/images/webp/desktop/image-grid.webp",
+                            "type": "image/webp"
+                        }
                     },
-                    "webp": {
-                        "url": "/images/webp/desktop/image-grid.webp",
-                        "type": "image/webp"
+                    "mobile": {
+                        "jpg": {
+                            "url": "/images/jpg/mobile/image-grid.jpg",
+                            "alt": "front car"
+                        },
+                        "webp": {
+                            "url": "/images/webp/mobile/image-grid.webp",
+                            "type": "image/webp"
+                        }
                     }
                 }  
             }, 
@@ -108,13 +168,25 @@
                 "id": "creations005",
                 "title": "From up above VR",
                 "image": {
-                    "jpg": {
-                        "url": "/images/jpg/desktop/image-from-above.jpg",
-                        "alt": "road from above"
+                    "desktop": {
+                        "jpg": {
+                            "url": "/images/jpg/desktop/image-from-above.jpg",
+                            "alt": "road from above"
+                        },
+                        "webp": {
+                            "url": "/images/webp/desktop/image-from-above.webp",
+                            "type": "image/webp"
+                        }
                     },
-                    "webp": {
-                        "url": "/images/webp/desktop/image-from-above.webp",
-                        "type": "image/webp"
+                    "mobile": {
+                        "jpg": {
+                            "url": "/images/jpg/mobile/image-from-above.jpg",
+                            "alt": "road from above"
+                        },
+                        "webp": {
+                            "url": "/images/webp/mobile/image-from-above.webp",
+                            "type": "image/webp"
+                        }
                     }
                 }  
             },
@@ -122,13 +194,25 @@
                 "id": "creations006",
                 "title": "Pocket borealis",
                 "image": {
-                    "jpg": {
-                        "url": "/images/jpg/desktop/image-pocket-borealis.jpg",
-                        "alt": "aurora borealis"
-                    },
-                    "webp": {
-                        "url": "/images/webp/desktop/image-pocket-borealis.webp",
-                        "type": "image/webp"
+                    "desktop": {
+                        "jpg": {
+                            "url": "/images/jpg/desktop/image-pocket-borealis.jpg",
+                            "alt": "aurora borealis"
+                        },
+                        "webp": {
+                            "url": "/images/webp/desktop/image-pocket-borealis.webp",
+                            "type": "image/webp"
+                        }
+                    }, 
+                    "mobile": {
+                        "jpg": {
+                            "url": "/images/jpg/mobile/image-pocket-borealis.jpg",
+                            "alt": "aurora borealis"
+                        },
+                        "webp": {
+                            "url": "/images/webp/mobile/image-pocket-borealis.webp",
+                            "type": "image/webp"
+                        }
                     }
                 }   
             },
@@ -136,13 +220,25 @@
                 "id": "creations007",
                 "title": "The curiosity",
                 "image": {
-                    "jpg": {
-                        "url": "/images/jpg/desktop/image-curiosity.jpg",
-                        "alt": "robot"
+                    "desktop": {
+                        "jpg": {
+                            "url": "/images/jpg/desktop/image-curiosity.jpg",
+                            "alt": "robot"
+                        },
+                        "webp": {
+                            "url": "/images/webp/desktop/image-curiosity.webp",
+                            "type": "image/webp"
+                        }
                     },
-                    "webp": {
-                        "url": "/images/webp/desktop/image-curiosity.webp",
-                        "type": "image/webp"
+                    "mobile": {
+                        "jpg": {
+                            "url": "/images/jpg/mobile/image-curiosity.jpg",
+                            "alt": "robot"
+                        },
+                        "webp": {
+                            "url": "/images/webp/mobile/image-curiosity.webp",
+                            "type": "image/webp"
+                        }
                     }
                 }  
             },
@@ -150,13 +246,25 @@
                 "id": "creations008",
                 "title": "Make it fisheye",
                 "image": {
-                    "jpg": {
-                        "url": "/images/jpg/desktop/image-fisheye.jpg",
-                        "alt": "fisheye"
-                    },
-                    "webp": {
-                        "url": "/images/webp/desktop/image-fisheye.webp",
-                        "type": "image/webp"
+                    "desktop": {
+                        "jpg": {
+                            "url": "/images/jpg/desktop/image-fisheye.jpg",
+                            "alt": "fisheye"
+                        },
+                        "webp": {
+                            "url": "/images/webp/desktop/image-fisheye.webp",
+                            "type": "image/webp"
+                        }
+                    }, 
+                    "mobile": {
+                        "jpg": {
+                            "url": "/images/jpg/mobile/image-fisheye.jpg",
+                            "alt": "fisheye"
+                        },
+                        "webp": {
+                            "url": "/images/webp/mobile/image-fisheye.webp",
+                            "type": "image/webp"
+                        }
                     }
                 }
             }
