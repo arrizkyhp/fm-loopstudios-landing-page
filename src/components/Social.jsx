@@ -13,7 +13,7 @@ const Social = (props) => {
         {dataSocial.map((social) => {
            return ( 
            <a className='relative hover:after:content-[""] hover:after:w-6 hover:after:h-[2px] hover:after:absolute hover:after:-bottom-2 hover:after:left-0 hover:after:right-0 hover:after:mx-auto hover:after:bg-white' href={social.url} target="_blank" rel='noreferrer' key={social.id}>
-                <img src={process.env.PUBLIC_URL + social.icon} alt={social.name} />
+                <img src={process.env.PUBLIC_URL + social.icon} alt="" />
                 <div className="sr-only">
                     {social.name}
                 </div>
