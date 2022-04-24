@@ -15,15 +15,15 @@ const Interactive = () => {
   return (
     <section className='grid md:flex md:flex-col relative'>
         {isBigScreen && <Image 
-          src={dataImageDesktop.webp.url} 
+          src={process.env.PUBLIC_URL + dataImageDesktop.webp.url} 
           type={dataImageDesktop.webp.type} 
-          fallback={dataImageDesktop.jpg.url} 
+          fallback={process.env.PUBLIC_URL + dataImageDesktop.jpg.url} 
           alt={dataImageDesktop.jpg.alt}
         />}
         {isMobile && <Image 
-          src={dataImageMobile.webp.url} 
+          src={process.env.PUBLIC_URL + dataImageMobile.webp.url} 
           type={dataImageMobile.webp.type} 
-          fallback={dataImageMobile.jpg.url} 
+          fallback={process.env.PUBLIC_URL + dataImageMobile.jpg.url} 
           alt={dataImageMobile.jpg.alt}
         />}
         <div className="flex  flex-col gap-5 md:gap-8 bg-white px-8 md:px-20 py-14 md:py-20 relative md:absolute md:w-[640px] md:-right-[460px] md:-bottom-[90px]">

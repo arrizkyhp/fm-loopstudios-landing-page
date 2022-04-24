@@ -14,16 +14,16 @@ const Card = ({ title, image}) => {
     <div className='relative w-full'>
       {/* Big Screen Image */}
       {isBigScreen && <Image 
-        src={imageDesktop.webp.url}
+        src={process.env.PUBLIC_URL + imageDesktop.webp.url}
         type={imageDesktop.webp.type}
-        fallback={imageDesktop.jpg.url}
+        fallback={process.env.PUBLIC_URL + imageDesktop.jpg.url}
         alt={imageDesktop.jpg.alt}
       />}
       {/* Mobile Image */}
       {isMobile && <Image 
-        src={imageMobile.webp.url}
+        src={process.env.PUBLIC_URL + imageMobile.webp.url}
         type={imageMobile.webp.type}
-        fallback={imageMobile.jpg.url}
+        fallback={process.env.PUBLIC_URL + imageMobile.jpg.url}
         alt={imageMobile.jpg.alt}
       />}
 
