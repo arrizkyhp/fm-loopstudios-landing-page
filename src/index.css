@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+// Hamburger Animation
+
+#input-checkbox:checked #burgir span {
+  transform: rotate(45deg) translate(-2px, -1px);
+}
+
+#input-checkbox:checked #burgir span:nth-child(2) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#input-checkbox:checked #burgir span:nth-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+    top: 3px);
+}
+
+#burgir span {
+    transform-origin: 4px 0;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#burgir span:first-child {
+    transform-origin: 0% 0%;
+}
+
+#burgir span:last-child {
+    transform-origin: 0% 100%;
+}

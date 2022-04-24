@@ -1,11 +1,13 @@
 import DataContext from 'context/data/DataContext'
 import { useContext } from 'react'
+import PropTypes from 'prop-types'
 
 const Social = (props) => {
     const className = [props.className]  
 
     const { data } = useContext(DataContext)
     const dataSocial = data.social;
+
   return (
     <div className={`flex  items-center gap-5 ${className.join(" ")}`} >
         {dataSocial.map((social) => {
@@ -20,6 +22,10 @@ const Social = (props) => {
         })}
     </div>
   )
+}
+
+Social.propTypes = {
+  className: PropTypes.string
 }
 
 export default Social

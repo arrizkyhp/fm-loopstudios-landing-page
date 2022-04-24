@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const Image = (props) => {
   return (
@@ -7,6 +8,14 @@ const Image = (props) => {
         <img className='w-full' src={props.fallback} alt={props.alt} />
     </picture>
   )
+}
+
+Image.propTypes = {
+  src: PropTypes.string,
+  type: PropTypes.string,
+  fallback: PropTypes.string,
+  alt: PropTypes.string,
+
 }
 
 export default Image

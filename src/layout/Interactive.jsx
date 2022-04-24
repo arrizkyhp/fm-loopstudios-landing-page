@@ -26,8 +26,8 @@ const Interactive = () => {
           fallback={dataImageMobile.jpg.url} 
           alt={dataImageMobile.jpg.alt}
         />}
-        <div className="flex  flex-col gap-8 bg-white px-8 md:px-20 py-20 relative md:absolute md:w-[640px] md:-right-[460px] md:-bottom-[90px]">
-            <h1 className='text-black uppercase text-3xl text-center md:text-left md:text-5xl font-josefin-sans'>{dataInteractive.subheading}</h1>
+        <div className="flex  flex-col gap-5 md:gap-8 bg-white px-8 md:px-20 py-14 md:py-20 relative md:absolute md:w-[640px] md:-right-[460px] md:-bottom-[90px]">
+            <h1 className='text-black uppercase text-4xl text-center md:text-left md:text-5xl font-josefin-sans'>{dataInteractive.subheading}</h1>
             <p className='text-very-dark-gray text-center md:text-left font-alata leading-7'>{dataInteractive.supportCopy}</p>
         </div>
     </section>
