@@ -13,7 +13,7 @@ const Interactive = () => {
   const isBigScreen = useMediaQuery({ query: '(min-width: 768px)' })
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' })
   return (
-    <section className='grid md:flex md:flex-col relative'>
+    <div className='grid md:flex md:flex-col relative'>
         {isBigScreen && <Image 
           src={process.env.PUBLIC_URL + dataImageDesktop.webp.url} 
           type={dataImageDesktop.webp.type} 
@@ -30,7 +30,7 @@ const Interactive = () => {
             <h1 className='text-black uppercase text-4xl text-center md:text-left md:text-5xl font-josefin-sans'>{dataInteractive.subheading}</h1>
             <p className='text-very-dark-gray text-center md:text-left font-alata leading-7'>{dataInteractive.supportCopy}</p>
         </div>
-    </section>
+    </div>
   )
 }
 
