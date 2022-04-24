@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-// Hamburger Animation
+/* Hamburger Animation */
 
 #input-checkbox:checked #burgir span {
   transform: rotate(45deg) translate(-2px, -1px);
