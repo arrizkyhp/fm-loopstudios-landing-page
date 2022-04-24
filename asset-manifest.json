@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/fm-loopstudios-landing-page/static/css/main.e12f4927.css",
+    "main.js": "/fm-loopstudios-landing-page/static/js/main.bd1e96a3.js",
+    "static/js/787.16ebf1e3.chunk.js": "/fm-loopstudios-landing-page/static/js/787.16ebf1e3.chunk.js",
+    "static/media/image-hero.jpg": "/fm-loopstudios-landing-page/static/media/image-hero.9b5aacead42e955824d3.jpg",
+    "static/media/logo.svg": "/fm-loopstudios-landing-page/static/media/logo.5b4e652aff88b09ef8f1d465f3db445b.svg",
+    "index.html": "/fm-loopstudios-landing-page/index.html",
+    "main.e12f4927.css.map": "/fm-loopstudios-landing-page/static/css/main.e12f4927.css.map",
+    "main.bd1e96a3.js.map": "/fm-loopstudios-landing-page/static/js/main.bd1e96a3.js.map",
+    "787.16ebf1e3.chunk.js.map": "/fm-loopstudios-landing-page/static/js/787.16ebf1e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e12f4927.css",
+    "static/js/main.bd1e96a3.js"
+  ]
+}
