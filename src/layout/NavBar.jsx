@@ -20,7 +20,7 @@ const NavBar = () => {
 
       {/* Burgir */}
       <div className="block relative md:hidden cursor-pointer w-10 h-full z-20" id='menuToggle'>
-        <input className='absolute block cursor-pointer w-10 h-8 z-30 opacity-0 top-0 left-0 focus:outline-none' id='input-checkbox' onChange={handleToggleMenu} type="checkbox" aria-label='open menu' aria-controls='burgir' aria-expanded={menuOpen ? true : false} />
+        <input type="checkbox" className='absolute block cursor-pointer w-10 h-8 z-30 opacity-0 top-0 left-0 focus:outline-none' id='input-checkbox' onChange={handleToggleMenu}  aria-label='open menu' aria-controls='burgir' aria-expanded={menuOpen ? true : false} />
         <div className="" id='burgir'>
           <span className={`block w-8 h-[2px] mb-[6px] relative bg-white ${menuOpen ? 'rotate-45 -translate-y-0.5' :  'rotate-0'}`}></span>
           <span className={`block w-8 h-[2px] mb-[6px] relative bg-white ${menuOpen ? 'opacity-0' :  'opacity-100'}`}></span>
@@ -28,7 +28,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className={`w-full flex h-full items-center bg-black absolute z-10 transition-all md:hidden top-0 left-0  ${menuOpen ? 'w-full' : 'w-0 '}`}>
-        <Menu data={dataMenu} className={`flex-col font-josefin-sans uppercase ml-8 text-3xl gap-8 ${menuOpen ? 'flex' : 'hidden'}`} />
+        <Menu data={dataMenu} className={`flex-col font-josefin-sans uppercase ml-8 text-[30px] gap-6 ${menuOpen ? 'flex' : 'hidden'}`} />
       </div>
     </nav>
   )
